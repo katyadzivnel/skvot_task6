@@ -12,14 +12,31 @@
         #first-par {
             color: blue;
         }
+
+        .text-red {
+            color: red;
+        }
+
+        .text-royalblue {
+            color: royalblue;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        button[disabled] {
+            opacity: 0.5;
+        }
     </style>
 </head>
 <body>
-    <h1>Lorem Ipsum</h1>
+    <h1 class="text-red">Lorem Ipsum</h1>
+    <button disabled>look further</button>
     <p id="first-par">
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
     </p>
-    <p>
+    <p class="text-royalblue bg-red">
         <i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</i>
     </p>
 </body>
